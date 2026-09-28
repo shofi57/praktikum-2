@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Mahasiswa</title>
+</head>
+
+<body>
+
+    <h1>Data Mahasiswa</h1>
+
+    <form>
+
+        NIM :
+        <input type="text" name="nim" required>
+        <br><br>
+
+        Nama :
+        <input type="text" name="nama" required>
+        <br><br>
+
+        Tgl Lahir (dd-mm-yyyy) :
+        <input type="date" name="tgl_lahir" required>
+        <br><br>
+
+        Jenis Kelamin :
+        <input type="radio" name="jenis_kelamin" value="Laki-Laki" required>
+        Laki-Laki
+
+        <input type="radio" name="jenis_kelamin" value="Perempuan">
+        Perempuan
+        <br><br>
+
+        Alamat di Bandung :
+        <br>
+        <textarea name="alamat" rows="5" cols="30"></textarea>
+        <br><br>
+
+        Tinggal di :
+        <select name="tempat_tinggal" required>
+            <option value="">--pilih--</option>
+            <option value="Kos/Kontrakan">Kos/Kontrakan</option>
+            <option value="Rumah saudara">Rumah saudara</option>
+            <option value="Rumah orang tua">Rumah orang tua</option>
+        </select>
+
+        <br><br>
+
+        Pilih 2 hobi yang paling disukai :
+        <br>
+
+        <input type="checkbox" name="hobi" value="Science">
+        Science
+        <br>
+
+        <input type="checkbox" name="hobi" value="Technology">
+        Technology
+        <br>
+
+        <input type="checkbox" name="hobi" value="Art">
+        Art
+        <br>
+
+        <input type="checkbox" name="hobi" value="Sport">
+        Sport
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
